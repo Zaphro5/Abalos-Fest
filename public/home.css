@@ -105,6 +105,19 @@ footer {
     border-radius: 5px;
 }
 
-#back-to-top:hover {
+#music-toggle {
+    position: absolute;
+    left: 20px;
+    bottom: 20px;
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#back-to-top:hover, #music-toggle:hover{
     background: #c70039;
 }
+
