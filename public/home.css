@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: url('images/background.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* Keeps the background steady while scrolling */
+    background-blend-mode: multiply; /* Softens the background */
+    background-color: rgba(10, 10, 25, 0.85); /* Dark overlay for better readability */
+}
+
+nav {
+    background: #ff5733;
+    padding: 15px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.hero img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.hero img:hover {
+    transform: scale(1.05);
+}
+
+.welcome-message {
+    max-width: 600px;
+    margin: 20px auto;
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 10px;
+    transition: opacity 0.3s;
+}
+
+.social-icons img:hover {
+    opacity: 0.7;
+}
+
+#back-to-top {
+    position: absolute;
+    right: 20px;
+    bottom: 20px;
+    background: #ff5733;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+#back-to-top:hover {
+    background: #c70039;
+}
