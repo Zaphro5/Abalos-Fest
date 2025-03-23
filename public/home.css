@@ -48,9 +48,13 @@ nav ul li a {
 }
 
 .welcome-message {
+    background: url('images/bg-2.jpg') no-repeat center center/cover;
+    background-attachment: fixed; /* Keeps the background steady while scrolling */
+    background-blend-mode: multiply; /* Softens the background */
+    background-color: rgba(138, 138, 157, 0.85); /* Dark overlay for better readability */
+    color: white;
     max-width: 600px;
     margin: 20px auto;
-    background: rgba(255, 255, 255, 0.8);
     padding: 20px;
     border-radius: 10px;
 }
@@ -63,14 +67,30 @@ footer {
     position: relative;
 }
 
-.social-icons img {
-    width: 30px;
+.social-links a {
+    color: #00bcd4;
+    text-decoration: none;
     margin: 0 10px;
-    transition: opacity 0.3s;
 }
 
-.social-icons img:hover {
-    opacity: 0.7;
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.icon svg {
+  fill: #00bcd4; /* Match the color theme */
+  transition: transform 0.2s ease-in-out;
+}
+
+.icon svg:hover {
+  transform: scale(1.2);
+}
+
+.social-links {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
 }
 
 #back-to-top {
