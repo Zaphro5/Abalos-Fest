@@ -1,0 +1,19 @@
+How to Access the Abalos Fest Website (Camarines Sur’s Festivals) on Localhost
+
+Since the Abalos Fest website is not yet deployed online, you will need to access it locally on your computer. Follow these steps:
+
+📌 Open Directly in a Browser
+
+Since we have an index.html file in the project folder, you can open it manually:
+
+1. Locate the Project Folder
+
+2. Go to the folder where index.html is saved.
+
+3. Open index.html in a Browser
+
+4. Double-click on index.html, and it should open in your default web browser.
+
+5. If it doesn’t open, right-click → Open with → Select your browser (Chrome, Edge, Firefox, etc.).
+
+Enjoy Browsing the Website 🎉
